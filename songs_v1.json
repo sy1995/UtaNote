@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-05",
+  "total_songs": 1,
+  "songs": [
+    {
+      "id": "光るなら",
+      "title": "光るなら",
+      "title_kana": "ひかるなら",
+      "title_cn": "若能绽放光芒",
+      "artist": "Goose house",
+      "anime": "四月は君の嘘",
+      "anime_cn": "四月是你的谎言",
+      "tags": [
+        "光るなら",
+        "hikaru nara",
+        "Goose house",
+        "四月は君の嘘",
+        "四月是你的谎言",
+        "shigatsu wa kimi no uso",
+        "OP",
+        "2014"
+      ],
+      "type": "OP",
+      "difficulty": "初级",
+      "jlpt_range": "N5-N4",
+      "lines": [
+        {
+          "original": "光るなら 掴み取ってよ 明日を",
+          "kana": "ひかるなら つかみとってよ あしたを",
+          "romaji": "hikaru nara tsukamitotte yo ashita o",
+          "translation": "若能闪耀 就紧紧抓住明天吧",
+          "words": [
+            {
+              "text": "光る",
+              "kana": "ひかる",
+              "romaji": "hikaru",
+              "meaning": "发光",
+              "type": "动词",
+              "jlpt": "N4",
+              "grammar_note": "原形：光る。此处为条件形「なら」的前项"
+            },
+            {
+              "text": "なら",
+              "kana": "なら",
+              "romaji": "nara",
+              "meaning": "如果…的话",
+              "type": "助词",
+              "jlpt": "N4",
+              "grammar_note": "表示假设条件"
+            },
+            {
+              "text": "掴み取って",
+              "kana": "つかみとって",
+              "romaji": "tsukamitotte",
+              "meaning": "抓住",
+              "type": "动词",
+              "jlpt": "N3",
+              "grammar_note": "原形：掴み取る。て形表示请求或建议"
+            },
+            {
+              "text": "よ",
+              "kana": "よ",
+              "romaji": "yo",
+              "meaning": "语气助词",
+              "type": "助词",
+              "jlpt": "N5",
+              "grammar_note": "表示强调或呼吁"
+            },
+            {
+              "text": "明日を",
+              "kana": "あしたを",
+              "romaji": "ashita o",
+              "meaning": "明天",
+              "type": "名词+助词",
+              "jlpt": "N5",
+              "grammar_note": "を提示动作对象"
+            }
+          ],
+          "grammar_notes": [
+            "なら表示假设条件，てよ组合构成委婉建议"
+          ]
+        },
+        {
+          "original": "信じてるから 今すぐ駆け出そう",
+          "kana": "しんじてるから いますぐ かけだそう",
+          "romaji": "shinjiteru kara ima sugu kakedasou",
+          "translation": "因为相信 现在就出发吧",
+          "words": [
+            {
+              "text": "信じてる",
+              "kana": "しんじてる",
+              "romaji": "shinjiteru",
+              "meaning": "相信",
+              "type": "动词",
+              "jlpt": "N4",
+              "grammar_note": "原形：信じる。ている的口语缩略形"
+            },
+            {
+              "text": "から",
+              "kana": "から",
+              "romaji": "kara",
+              "meaning": "因为",
+              "type": "助词",
+              "jlpt": "N5",
+              "grammar_note": "表示原因理由"
+            },
+            {
+              "text": "今すぐ",
+              "kana": "いますぐ",
+              "romaji": "ima sugu",
+              "meaning": "立刻",
+              "type": "副词",
+              "jlpt": "N4"
+            },
+            {
+              "text": "駆け出そう",
+              "kana": "かけだそう",
+              "romaji": "kakedasou",
+              "meaning": "出发吧",
+              "type": "动词",
+              "jlpt": "N3",
+              "grammar_note": "原形：駆け出す。意志形表示提议"
+            }
+          ],
+          "grammar_notes": [
+            "ている→てる为口语省略形，意志形用于提议行动"
+          ]
+        },
+        {
+          "original": "涙の跡 乾く前に",
+          "kana": "なみだのあと かわくまえに",
+          "romaji": "namida no ato kawaku mae ni",
+          "translation": "在泪痕干涸之前",
+          "words": [
+            {
+              "text": "涙の跡",
+              "kana": "なみだのあと",
+              "romaji": "namida no ato",
+              "meaning": "泪痕",
+              "type": "名词短语",
+              "jlpt": "N4",
+              "grammar_note": "の表示所属关系"
+            },
+            {
+              "text": "乾く",
+              "kana": "かわく",
+              "romaji": "kawaku",
+              "meaning": "干涸",
+              "type": "动词",
+              "jlpt": "N3"
+            },
+            {
+              "text": "前に",
+              "kana": "まえに",
+              "romaji": "mae ni",
+              "meaning": "在…之前",
+              "type": "语法结构",
+              "jlpt": "N4",
+              "grammar_note": "动词原形+前に表示时间顺序"
+            }
+          ],
+          "grammar_notes": [
+            "前に接动词原形表示动作先后顺序"
+          ]
+        },
+        {
+          "original": "踏み出す勇気を 胸に抱いて",
+          "kana": "ふみだすゆうきを むねにだいて",
+          "romaji": "fumidasu yuuki o mune ni daite",
+          "translation": "将迈出脚步的勇气 拥入怀中",
+          "words": [
+            {
+              "text": "踏み出す",
+              "kana": "ふみだす",
+              "romaji": "fumidasu",
+              "meaning": "迈出",
+              "type": "动词",
+              "jlpt": "N3"
+            },
+            {
+              "text": "勇気を",
+              "kana": "ゆうきを",
+              "romaji": "yuuki o",
+              "meaning": "勇气",
+              "type": "名词+助词",
+              "jlpt": "N4",
+              "grammar_note": "を提示动作对象"
+            },
+            {
+              "text": "胸に",
+              "kana": "むねに",
+              "romaji": "mune ni",
+              "meaning": "在胸前",
+              "type": "名词+助词",
+              "jlpt": "N5",
+              "grammar_note": "に表示动作着落点"
+            },
+            {
+              "text": "抱いて",
+              "kana": "だいて",
+              "romaji": "daite",
+              "meaning": "拥抱",
+              "type": "动词",
+              "jlpt": "N3",
+              "grammar_note": "原形：抱く。て形表示方式"
+            }
+          ],
+          "grammar_notes": [
+            "に提示动作作用点，て形连接前后动作"
+          ]
+        },
+        {
+          "original": "君と見た 星空の約束",
+          "kana": "きんとみた ほしぞらのやくそく",
+          "romaji": "kimi to mita hoshizora no yakusoku",
+          "translation": "与你共赏的 星空下的约定",
+          "words": [
+            {
+              "text": "君と",
+              "kana": "きみと",
+              "romaji": "kimi to",
+              "meaning": "和你",
+              "type": "代词+助词",
+              "jlpt": "N5",
+              "grammar_note": "と表示共同动作对象"
+            },
+            {
+              "text": "見た",
+              "kana": "みた",
+              "romaji": "mita",
+              "meaning": "看过",
+              "type": "动词",
+              "jlpt": "N5",
+              "grammar_note": "原形：見る。た形表示过去"
+            },
+            {
+              "text": "星空の",
+              "kana": "ほしぞらの",
+              "romaji": "hoshizora no",
+              "meaning": "星空的",
+              "type": "名词+助词",
+              "jlpt": "N4",
+              "grammar_note": "の表示修饰关系"
+            },
+            {
+              "text": "約束",
+              "kana": "やくそく",
+              "romaji": "yakusoku",
+              "meaning": "约定",
+              "type": "名词",
+              "jlpt": "N4"
+            }
+          ],
+          "grammar_notes": [
+            "と表示共同动作，た形作定语修饰名词"
+          ]
+        },
+        {
+          "original": "忘れないで ずっとそばにいるよ",
+          "kana": "わすれないで ずっとそばにいるよ",
+          "romaji": "wasurenaide zutto soba ni iru yo",
+          "translation": "请不要忘记 我会一直陪伴在你身边",
+          "words": [
+            {
+              "text": "忘れないで",
+              "kana": "わすれないで",
+              "romaji": "wasurenaide",
+              "meaning": "请不要忘记",
+              "type": "动词",
+              "jlpt": "N4",
+              "grammar_note": "原形：忘れる。ないで表示请求"
+            },
+            {
+              "text": "ずっと",
+              "kana": "ずっと",
+              "romaji": "zutto",
+              "meaning": "一直",
+              "type": "副词",
+              "jlpt": "N4"
+            },
+            {
+              "text": "そばに",
+              "kana": "そばに",
+              "romaji": "soba ni",
+              "meaning": "在身边",
+              "type": "名词+助词",
+              "jlpt": "N5",
+              "grammar_note": "に表示存在位置"
+            },
+            {
+              "text": "いる",
+              "kana": "いる",
+              "romaji": "iru",
+              "meaning": "存在",
+              "type": "动词",
+              "jlpt": "N5"
+            },
+            {
+              "text": "よ",
+              "kana": "よ",
+              "romaji": "yo",
+              "meaning": "语气助词",
+              "type": "助词",
+              "jlpt": "N5",
+              "grammar_note": "表示强调"
+            }
+          ],
+          "grammar_notes": [
+            "ないで构成否定请求，に提示存在场所"
+          ]
+        }
+      ]
+    }
+  ]
+}

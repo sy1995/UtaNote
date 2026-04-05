@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Song Analysis",
+  "type": "object",
+  "required": ["id", "title", "artist", "anime", "type", "difficulty", "jlpt_range", "tags", "lines"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "歌曲唯一标识符"
+    },
+    "title": {
+      "type": "string",
+      "description": "歌曲标题（日文）"
+    },
+    "title_kana": {
+      "type": "string",
+      "description": "歌曲标题假名"
+    },
+    "title_cn": {
+      "type": "string",
+      "description": "歌曲标题中文翻译"
+    },
+    "artist": {
+      "type": "string",
+      "description": "歌手/演唱者"
+    },
+    "anime": {
+      "type": "string",
+      "description": "所属动漫（日文）"
+    },
+    "anime_cn": {
+      "type": "string",
+      "description": "所属动漫中文名"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "检索标签，包括：歌曲名、动漫名（中日文）、歌手、类型、年代等",
+      "minItems": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["OP", "ED", "插曲", "角色歌", "主题曲", "其他"],
+      "description": "歌曲类型"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["入门", "初级", "中级", "进阶"],
+      "description": "难度等级"
+    },
+    "jlpt_range": {
+      "type": "string",
+      "pattern": "^N[1-5]-N[1-5]$",
+      "description": "JLPT等级范围，如 N5-N3"
+    },
+    "bpm": {
+      "type": "integer",
+      "description": "歌曲节拍数（可选）"
+    },
+    "lines": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["original", "kana", "romaji", "translation", "words"],
+        "properties": {
+          "original": {
+            "type": "string",
+            "description": "日文原文"
+          },
+          "kana": {
+            "type": "string",
+            "description": "假名标注"
+          },
+          "romaji": {
+            "type": "string",
+            "description": "罗马音"
+          },
+          "translation": {
+            "type": "string",
+            "description": "中文翻译"
+          },
+          "words": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["text", "kana", "romaji", "meaning", "type"],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "description": "词语原文"
+                },
+                "kana": {
+                  "type": "string",
+                  "description": "假名读音"
+                },
+                "romaji": {
+                  "type": "string",
+                  "description": "罗马音"
+                },
+                "meaning": {
+                  "type": "string",
+                  "description": "中文释义"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["名词", "动词", "形容词", "な形容词", "副词", "助词", "接续词", "感叹词", "代词", "量词", "助动词", "接头词", "接尾词", "惯用语", "其他"],
+                  "description": "词性"
+                },
+                "jlpt": {
+                  "type": "string",
+                  "enum": ["N1", "N2", "N3", "N4", "N5"],
+                  "description": "JLPT等级"
+                },
+                "grammar_note": {
+                  "type": "string",
+                  "description": "语法说明"
+                }
+              }
+            }
+          },
+          "grammar_notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "语法注释"
+          }
+        }
+      }
+    }
+  }
+}
